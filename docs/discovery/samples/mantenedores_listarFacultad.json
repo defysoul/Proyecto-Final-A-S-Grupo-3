@@ -1,0 +1,10 @@
+[
+  { "id": 8, "sigla": "EP", "nombre": "Escuela de Postgrado", "campus": " ", "direccion": " ", "telefono": "787 7534", "idUnidad": 43 },
+  { "id": 1, "sigla": "FAE", "nombre": "Facultad de Administración y Economía", "campus": "Providencia", "direccion": "Dr. Hernán Alessandri 722, Providencia", "telefono": "2787 7534", "idUnidad": 18 },
+  { "id": 2, "sigla": "FCCOT", "nombre": "Facultad de Ciencias de la Construcción y Ordenamiento Territorial", "campus": "390", "direccion": "Calle Dieciocho 390, Santiago Centro", "telefono": "787 7534", "idUnidad": 12 },
+  { "id": 7, "sigla": "FCJS", "nombre": "Facultad de Ciencias Jurídicas y Sociales", "campus": "Central", "direccion": "Padre Miguel de Olivares 1620", "telefono": "787 7534", "idUnidad": 13 },
+  { "id": 3, "sigla": "FCNMMA", "nombre": "Facultad de Ciencias Naturales Matemáticas y Medio Ambiente", "campus": "Macul", "direccion": "Av. José Pedro Alessandri 1242, Ñuñoa", "telefono": "787 7534", "idUnidad": 11 },
+  { "id": 4, "sigla": "FHTCS", "nombre": "Facultad de Humanidades y Tecnologías de la Comunicación Social", "campus": "390", "direccion": "Dieciocho 390, Santiago Centro", "telefono": "787 7534", "idUnidad": 15 },
+  { "id": 5, "sigla": "FING", "nombre": "Facultad de Ingeniería", "campus": "Macul", "direccion": "Av. José Pedro Alessandri 1242, Ñuñoa", "telefono": "787 7534", "idUnidad": 10 },
+  { "id": 6, "sigla": "UTEM", "nombre": "Universidad Tecnológica Metropolitana de Chile ", "campus": "", "direccion": "", "telefono": "", "idUnidad": null }
+]

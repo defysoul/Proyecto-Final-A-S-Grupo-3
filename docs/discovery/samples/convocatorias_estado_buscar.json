@@ -1,0 +1,13 @@
+[
+  { "id": 1, "nombre": "Incompleta", "orden": 1 },
+  { "id": 2, "nombre": "Ingresada", "orden": 2 },
+  { "id": 3, "nombre": "Admisible", "orden": 3 },
+  { "id": 4, "nombre": "Pre-Aprobada", "orden": 4 },
+  { "id": 5, "nombre": "Agendar", "orden": 5 },
+  { "id": 6, "nombre": "Aprobada", "orden": 6 },
+  { "id": 7, "nombre": "Rechazada", "orden": 7 },
+  { "id": 8, "nombre": "Ejecución", "orden": 8 },
+  { "id": 9, "nombre": "No-Realizada", "orden": 9 },
+  { "id": 10, "nombre": "Finalizado", "orden": 10 },
+  { "id": 11, "nombre": "Reformular", "orden": 11 }
+]

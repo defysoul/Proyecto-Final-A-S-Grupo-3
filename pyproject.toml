@@ -1,0 +1,81 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sisav2-mcp"
+version = "0.2.0"
+description = "Servidor MCP SISAV2: lectura real y previews seguros de escritura dry-run"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Jaime Jiménez Ruiz" }]
+dependencies = [
+    "fastmcp",
+    "httpx",
+    "pydantic>=2",
+    "keyring",
+    # Generación de CATASTRO/EVIDENCIA en .docx (skill de documentos, Paso 8).
+    "python-docx>=1.1",
+    # El modelo se importa de forma perezosa; queda como dependencia base para
+    # que las tools semánticas estén disponibles en una instalación normal.
+    "sentence-transformers>=3.0,<6",
+]
+
+# authlib es opcional: ROPC se resuelve con httpx directo contra el token_endpoint.
+# Reincorporar solo si se implementa el upgrade a PKCE (ver Paso 4 del plan).
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "respx",
+    "ruff",
+    "mypy",
+    # Los tests de registro para Codex serializan TOML, aun si no se abre GUI.
+    "tomli-w",
+]
+# GUI del instalador portable (setup): vista web (pywebview) + escritor TOML para
+# las configs de los clientes MCP.
+gui = [
+    "pywebview",
+    "tomli-w",
+]
+# Empaquetado a ejecutable (.exe) con PyInstaller.
+build = [
+    "pyinstaller",
+]
+
+[project.scripts]
+# Entry dual: sin args abre la GUI de setup; `serve` corre el MCP por stdio.
+sisav2-mcp = "sisav2_mcp.app:main"
+# Alias directo al servidor stdio (lo que invocan los clientes MCP).
+sisav2-mcp-serve = "sisav2_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sisav2_mcp"]
+
+[tool.ruff]
+target-version = "py311"
+src = ["src", "tests"]
+# Los notebooks de experimentación no se someten a E501/orden-de-imports: son
+# exploratorios (líneas largas con métricas). El código de producción sí.
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.mypy]
+python_version = "3.11"
+files = ["src"]
+warn_unused_ignores = true
+warn_redundant_casts = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+addopts = "--cov=sisav2_mcp --cov-report=term-missing --cov-fail-under=80"
+
+# Dependencias de la GUI/instalador sin stubs de tipos.
+[[tool.mypy.overrides]]
+module = ["webview", "webview.*", "tomli_w"]
+ignore_missing_imports = true

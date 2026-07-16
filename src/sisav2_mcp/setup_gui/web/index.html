@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SISAV2 MCP — Configuración</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="hero">
+        <div class="logo-chip">
+          <img src="utem-logo.svg" alt="Universidad Tecnológica Metropolitana" class="logo" />
+        </div>
+        <div class="hero-text">
+          <h1>SISAV2 · MCP</h1>
+          <p>Conector de Vinculación con el Medio para tus agentes de IA</p>
+        </div>
+      </header>
+
+      <main class="card">
+        <!-- Pantalla única: cuenta + elección + conectar -->
+        <section id="step-setup" class="step">
+          <h2>Conecta tu cuenta y elige dónde instalarlo</h2>
+          <p class="muted">
+            Verificamos tu credencial UTEM y la guardamos cifrada en este equipo
+            (Administrador de credenciales). Nunca se envía a terceros ni se guarda
+            en texto plano.
+          </p>
+          <label>
+            Usuario UTEM
+            <input id="usuario" type="text" placeholder="tu.usuario" autocomplete="username" autofocus />
+          </label>
+          <label>
+            Clave UTEM
+            <input id="clave" type="password" placeholder="••••••••" autocomplete="current-password" />
+          </label>
+
+          <div class="clients-block">
+            <p class="section-kicker">Destino recomendado</p>
+            <label id="codex-desktop-card" class="check primary-client">
+              <input
+                id="codex-desktop"
+                type="checkbox"
+                value="codex_desktop"
+                data-client
+              />
+              <span class="client-copy">
+                <strong>Codex Desktop</strong>
+                <small id="codex-desktop-description">Comprobando instalación…</small>
+              </span>
+              <em id="codex-desktop-status">comprobando</em>
+            </label>
+
+            <details id="other-clients" class="other-clients">
+              <summary>Otros clientes compatibles</summary>
+              <p class="muted">Opcionales; se instalan solo si los seleccionas.</p>
+              <div id="clients-list"></div>
+            </details>
+          </div>
+
+          <button id="btn-conectar" class="primary">Conectar</button>
+          <div id="status" class="status" hidden></div>
+        </section>
+
+        <!-- Pantalla de éxito -->
+        <section id="step-done" class="step" hidden>
+          <div class="done-badge">✓</div>
+          <h2>¡Listo!</h2>
+          <p class="muted" id="done-text"></p>
+          <ul class="hints">
+            <li><b>Claude Code:</b> abre una <b>sesión nueva</b>.</li>
+            <li><b>Claude Desktop:</b> <b>reinícialo</b> por completo.</li>
+            <li><b>Codex Desktop:</b> reinícialo y abre una tarea nueva.</li>
+          </ul>
+          <button id="btn-cerrar" class="ghost">Cerrar</button>
+        </section>
+      </main>
+
+      <footer class="foot">SISAV2 MCP · Vinculación con el Medio · UTEM</footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "postulaciones": [
+    {
+      "idpostulacion": 2873,
+      "nombrepostulacion": "Vinculación con actores clave",
+      "encargado": "<ANONIMIZADO: Nombre Apellido>",
+      "carreraformulario": "Doctorado en Informática Aplicada a Salud y Medio Ambiente",
+      "facultadformulario": "Escuela de Postgrado",
+      "idconvocatoria": 49,
+      "nombreconvocatoria": "Convocatoria proyecto Vinculación con el Entorno Disciplinar Profesional 2025 [Postgrado]",
+      "idestado": 10,
+      "nombreestado": "Finalizado",
+      "anioInicioConvocatoria": 2025,
+      "fecha": "2026-03-06T14:31:25.586Z"
+    },
+    {
+      "idpostulacion": 2863,
+      "nombrepostulacion": "Primer encuentro de graduados y graduadas del MEES",
+      "encargado": "<ANONIMIZADO: Nombre Apellido>",
+      "carreraformulario": "Magíster en Eficiencia Energética y Sustentabilidad Mención Edificación",
+      "facultadformulario": "Escuela de Postgrado",
+      "idconvocatoria": 49,
+      "nombreconvocatoria": "Convocatoria proyecto Vinculación con el Entorno Disciplinar Profesional 2025 [Postgrado]",
+      "idestado": 8,
+      "nombreestado": "Ejecución",
+      "anioInicioConvocatoria": 2025,
+      "fecha": "2026-05-28T14:59:36.153Z"
+    }
+  ],
+  "total": 22
+}

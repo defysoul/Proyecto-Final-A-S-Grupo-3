@@ -1,0 +1,10 @@
+[
+  { "id": 30, "nombre": "Administración Pública", "codigo": 21089, "facultadId": 7 },
+  { "id": 17, "nombre": "Arquitectura", "codigo": 21047, "facultadId": 2 },
+  { "id": 16, "nombre": "Bachillerato en Ciencias de la Ingenieria", "codigo": 21046, "facultadId": null },
+  { "id": 39, "nombre": "Ingenieria Civil en Ciencia de Datos", "codigo": 21049, "facultadId": 5 },
+  { "id": 9, "nombre": "Ingenieria en Informatica", "codigo": 21030, "facultadId": 5 },
+  { "id": 50, "nombre": "Doctorado en Informática Aplicada a Salud y Medio Ambiente", "codigo": 95001, "facultadId": 8 },
+  { "id": 44, "nombre": "Psicología", "codigo": 21053, "facultadId": 7 },
+  { "id": 14, "nombre": "Trabajo Social", "codigo": 21043, "facultadId": 4 }
+]

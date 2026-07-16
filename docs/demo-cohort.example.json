@@ -1,0 +1,22 @@
+{
+  "miembros": [
+    {
+      "idPostulacion": 3033,
+      "modalidad": "PRE_GRADO",
+      "facultad": "Facultad de Ciencias Jurídicas y Sociales",
+      "anio": 2026
+    },
+    {
+      "idPostulacion": 2873,
+      "modalidad": "POST_GRADO",
+      "facultad": "Escuela de Postgrado",
+      "anio": 2025
+    },
+    {
+      "idPostulacion": 2886,
+      "modalidad": "EXTENSION",
+      "facultad": "Facultad de Humanidades y Tecnologías de la Comunicación Social",
+      "anio": 2026
+    }
+  ]
+}

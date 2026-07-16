@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": 2912,
+      "idpostulacion": 2992,
+      "nombrepostulacion": "Salida Banco del Estado",
+      "encargado": "<ANONIMIZADO: Nombre Apellido>",
+      "nombrefacultad": "Facultad de Ingeniería",
+      "idconvocatoria": 71,
+      "nombreconvocatoria": "Iniciativas de Vinculación con el Entorno Disciplinar Profesional - 1° Semestre 2026",
+      "idestado": 8,
+      "nombreestado": "Ejecución",
+      "carreraformulario": "Ingenieria Civil Industrial",
+      "facultadformulario": "Facultad de Ingeniería"
+    },
+    {
+      "id": 2883,
+      "idpostulacion": 2872,
+      "nombrepostulacion": "Encuentro de Titulados/as CPA 2025",
+      "encargado": "<ANONIMIZADO: Nombre Apellido>",
+      "nombrefacultad": "Facultad de Administración y Economía",
+      "idconvocatoria": 51,
+      "nombreconvocatoria": "Convocatoria proyecto VcM Vinculación con Titulados 2025 (2do Semestre)",
+      "idestado": 10,
+      "nombreestado": "Finalizado",
+      "carreraformulario": "Contador Publico y Auditor",
+      "facultadformulario": "Facultad de Administración y Economía"
+    }
+  ],
+  "total": 1299
+}

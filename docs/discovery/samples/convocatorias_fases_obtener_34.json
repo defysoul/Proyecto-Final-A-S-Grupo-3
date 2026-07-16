@@ -1,0 +1,36 @@
+{
+  "id": 34,
+  "nombre": "Iniciativas de Vinculación con el Entorno Disciplinar Profesional - 1° Semestre 2026",
+  "activo": true,
+  "siempreVisible": false,
+  "rolEvalua": 26,
+  "estadoPostulacion": [
+    {
+      "id": 42,
+      "idFase": 34,
+      "idEstado": 3,
+      "idRol": 18,
+      "rol": { "id": 18, "nombre": "Analista", "estado": true },
+      "estado": { "id": 3, "nombre": "Admisible", "orden": 3 }
+    },
+    {
+      "id": 43,
+      "idFase": 34,
+      "idEstado": 6,
+      "idRol": 3,
+      "rol": { "id": 3, "nombre": "Aprobador", "estado": true },
+      "estado": { "id": 6, "nombre": "Aprobada", "orden": 6 }
+    }
+  ],
+  "plantillas": { "postulacion": 85, "informe": 86 },
+  "calendarizacion": [{ "id": 14, "estado": 1, "rol": 3 }],
+  "convocatorias": [
+    {
+      "id": 71,
+      "nombre": "Iniciativas de Vinculación con el Entorno Disciplinar Profesional - 1° Semestre 2026",
+      "publicacion": "2026-05-04T14:40:25.494Z",
+      "estado": true
+    }
+  ],
+  "formulario": ""
+}

@@ -1,0 +1,10 @@
+{
+  "_nota": "GET /convocatorias/postulacion/buscar (PRE_GRADO). Campo 'encargado' ANONIMIZADO. Se conservan 4 filas representativas de 10; 'total' es el real.",
+  "postulaciones": [
+    { "idpostulacion": 3033, "nombrepostulacion": "Charlas Profesionalizantes", "encargado": "Carlos Méndez R.", "carreraformulario": "Administración Pública", "facultadformulario": "Facultad de Ciencias Jurídicas y Sociales", "idconvocatoria": 71, "nombreconvocatoria": "Iniciativas de Vinculación con el Entorno Disciplinar Profesional - 1° Semestre 2026", "idestado": 2, "nombreestado": "Ingresada", "anioInicioConvocatoria": 2026, "fecha": "2026-06-04T14:58:24.246Z" },
+    { "idpostulacion": 3032, "nombrepostulacion": "Encuentro institucional y académico entre GORE RM y Administración Pública", "encargado": "Carlos Méndez R.", "carreraformulario": "Administración Pública", "facultadformulario": "Facultad de Ciencias Jurídicas y Sociales", "idconvocatoria": 72, "nombreconvocatoria": "Iniciativas de Extensión Académica- 1° Semestre 2026", "idestado": 2, "nombreestado": "Ingresada", "anioInicioConvocatoria": 2026, "fecha": "2026-06-02T15:45:43.775Z" },
+    { "idpostulacion": 3029, "nombrepostulacion": "Ciclo de charlas Gestión y desarrollo de colecciones", "encargado": null, "carreraformulario": "Bibliotecologia y Documentación", "facultadformulario": "Facultad de Administración y Economía", "idconvocatoria": 73, "nombreconvocatoria": "Iniciativas Vinculación con Titulados/as - 1° Semestre 2026", "idestado": 1, "nombreestado": "Incompleta", "anioInicioConvocatoria": 2026, "fecha": "2026-05-28T22:19:55.258Z" },
+    { "idpostulacion": 3028, "nombrepostulacion": "Ciclo de Charlas Gestión Unidades de Información: II y III", "encargado": "Patricia Soto V.", "carreraformulario": "Bibliotecologia y Documentación", "facultadformulario": "Facultad de Administración y Economía", "idconvocatoria": 72, "nombreconvocatoria": "Iniciativas de Extensión Académica- 1° Semestre 2026", "idestado": 1, "nombreestado": "Incompleta", "anioInicioConvocatoria": 2026, "fecha": "2026-05-28T21:49:27.666Z" }
+  ],
+  "total": 1471
+}

@@ -1,0 +1,18 @@
+{
+  "postulaciones": [
+    {
+      "idpostulacion": 2886,
+      "nombrepostulacion": "¿La IA como nuevo medio de lo social? Relaciones de poder y la máquina de modulación algorítmica en tiempo real",
+      "encargado": "<ANONIMIZADO: Nombre Apellido>",
+      "carreraformulario": "Trabajo Social",
+      "facultadformulario": "Facultad de Humanidades y Tecnologías de la Comunicación Social",
+      "idconvocatoria": 74,
+      "nombreconvocatoria": "Convocatoria postulación libros editorial UTEM 2027",
+      "idestado": 3,
+      "nombreestado": "Admisible",
+      "anioInicioConvocatoria": 2026,
+      "fecha": "2026-05-11T18:33:57.916Z"
+    }
+  ],
+  "total": 1
+}

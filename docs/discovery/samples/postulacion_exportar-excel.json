@@ -1,0 +1,20 @@
+{
+  "_nota": "Muestra del endpoint de exportación. NO es un body de respuesta puro: documenta request (POST + JSON body) y response. La 'url' real es una URL prefirmada de S3 (expira ~900s) y se REDACTA aquí (contenía X-Amz-Security-Token y firma). El XLSX descargado contiene PII de personas y NO se versiona.",
+  "_endpoint": "POST /convocatorias/postulacion/exportar-excel",
+  "_request_content_type": "application/json",
+  "_request_body": {
+    "convocatoriaId": 71,
+    "convocatoriaNombre": "Iniciativas de Vinculación con el Entorno Disciplinar Profesional - 1° Semestre 2026",
+    "estado": [],
+    "modalidad": "PRE_GRADO",
+    "idUsuario": 401,
+    "roles": [8, 3, 1, 24],
+    "esAdmin": true
+  },
+  "_response_content_type": "application/json",
+  "_response_body": {
+    "url": "https://sisav-prod-file-upload.s3.us-east-1.amazonaws.com/exports/export-71-<HASH>.xlsx?X-Amz-Algorithm=...&X-Amz-Credential=...&X-Amz-Date=...&X-Amz-Expires=900&X-Amz-Security-Token=<REDACTED>&X-Amz-Signature=<REDACTED>&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "total": 88,
+    "nombreArchivo": "Postulaciones_Iniciativas_de_Vinculaci_n_con_el_Entorno_Disciplinar_Profesional_-_1__Semestre_2026_08-06-2026.xlsx"
+  }
+}

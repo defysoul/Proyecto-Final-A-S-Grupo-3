@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "data": [
+    {
+      "categoria": {
+        "id": 1,
+        "nombre": "Docencia",
+        "bucket": "sisav-prod-file-upload",
+        "path": "uploads/repositorios-vcm",
+        "vista": "REPOSITORIO_VCM",
+        "orden": 10,
+        "icono": null,
+        "vigencia": true,
+        "fechaCreacion": "2025-10-30T15:51:02.811Z",
+        "fechaActualizacion": "2025-10-30T15:51:02.811Z"
+      },
+      "repositorios": [
+        {
+          "id": 1,
+          "nombre": "Documentos Docencia 2025",
+          "descripcion": "Repositorio para Documentos Docencia 2025",
+          "categoriaRepositorioId": 1,
+          "esPublico": true,
+          "tiposArchivosPermitidos": [".pdf", ".docx", ".xlsx"],
+          "cantidadMaximaArchivos": 10,
+          "orden": 10,
+          "vigencia": true,
+          "fechaCreacion": "2025-10-27T13:07:28.250Z",
+          "fechaActualizacion": "2025-11-28T08:55:51.518Z",
+          "care_id": 1,
+          "roles": []
+        }
+      ]
+    },
+    {
+      "categoria": {
+        "id": 2,
+        "nombre": "Extensión",
+        "bucket": "sisav-prod-file-upload",
+        "path": "uploads/repositorios-vcm",
+        "vista": "REPOSITORIO_VCM",
+        "orden": 20,
+        "icono": null,
+        "vigencia": true,
+        "fechaCreacion": "2025-10-30T15:51:02.811Z",
+        "fechaActualizacion": "2025-10-30T15:51:02.811Z"
+      },
+      "repositorios": [
+        {
+          "id": 4,
+          "nombre": "Utem Cultura en tu Campus",
+          "descripcion": "Repositorio para Documentos Extensión cultura en tu campus",
+          "categoriaRepositorioId": 2,
+          "esPublico": false,
+          "tiposArchivosPermitidos": [".pdf", ".docx", ".xlsx"],
+          "cantidadMaximaArchivos": 15,
+          "orden": 10,
+          "vigencia": true,
+          "fechaCreacion": "2025-10-27T13:07:28.420Z",
+          "fechaActualizacion": "2025-12-03T21:08:52.305Z",
+          "care_id": 2,
+          "roles": [1]
+        }
+      ]
+    }
+  ]
+}

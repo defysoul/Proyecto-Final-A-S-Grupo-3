@@ -1,0 +1,28 @@
+{
+  "_nota": "GET /convocatorias/postulacion/obtener/{id}. RECORTADO de ~138KB: se conserva 1 sección con campos representativos de cada 'type'. PII (correo/encargado) ANONIMIZADA. El real trae N secciones (posicion 1..N = los 'pasos del wizard') y options para todas las carreras.",
+  "id": 3033,
+  "nombre": "Charlas Profesionalizantes",
+  "fecha": "2026-06-04T14:58:24.246Z",
+  "formulario": {
+    "nombre": "Iniciativas de Vinculación con el Entorno Disciplinar Profesional - 1° Semestre 2026",
+    "tipo": "PERSONALIZADA",
+    "formulario": [
+      {
+        "descripcion": "La Dirección de Vinculación Académica con el Medio pone a disposición el presente formulario... (texto introductorio del paso)",
+        "posicion": 1,
+        "tipo": "",
+        "eliminable": false,
+        "json": [
+          { "name": "ESTANDAR_CORREO", "label": "Correo", "type": "email", "obligatorio": true, "size": 12, "value": "academico.demo@utem.cl", "validations": [ { "name": "Email", "message": "Email obligatorio." }, { "name": "Obligatorio", "message": "Campo obligatorio." } ] },
+          { "name": "ENCARGADA", "label": "Nombre Académico Responsable", "type": "text", "obligatorio": true, "size": 12, "value": "Carlos Méndez R.", "validations": [ { "name": "Obligatorio", "message": "Campo obligatorio." } ] },
+          { "name": "3e388590-31d6-11f1-a4cd-177b7af448f0", "label": "...jerarquía académica", "type": "radio", "obligatorio": true, "size": 12, "isEditable": true, "value": "Académico titular", "options": [ { "value": "3e388591-...", "label": "Académico titular", "selected": false }, { "value": "3e388592-...", "label": "Académico regular", "selected": false } ] },
+          { "name": "FACULTAD", "label": "Facultad", "type": "endpoint", "obligatorio": true, "size": 6, "urlApi": "https://sisav2-api.utem.cl/mantenedores/listarFacultad", "idObj": "id", "valueObj": "nombre", "value": 7 },
+          { "name": "Carrera", "label": "Carrera", "type": "endpoint", "obligatorio": true, "size": 6, "urlApi": "https://sisav2-api.utem.cl/mantenedores/listarCarrera", "idObj": "id", "valueObj": "nombre", "value": 30 },
+          { "name": "NOMBRE", "label": "Nombre de la iniciativa", "type": "text", "obligatorio": true, "size": 12, "value": "Charlas Profesionalizantes" },
+          { "name": "e6e5fa20-491f-11ef-80da-0bbfcf526d04", "label": "Indique los objetivos de la iniciativa...", "type": "textarea", "obligatorio": true, "size": 12, "isEditable": true, "value": "Presentar experiencias profesionales de gestión pública para motivar estudiantes de primer año." },
+          { "name": "906641d0-53a3-11ef-9f49-f92876e25552", "label": "Dominios disciplinarios -- Administración Pública", "type": "checkbox-dependent", "obligatorio": true, "size": 12, "limit": 1, "dependency": { "name": "Carrera", "value": "Administración Pública" }, "options": [ { "value": "906641d1-...", "label": "Gestión organizacional pública.", "selected": false }, { "value": "906641d2-...", "label": "Gestión de políticas públicas.", "selected": true } ], "value": [ "906641d2-53a3-11ef-9f49-f92876e25552" ] }
+        ]
+      }
+    ]
+  }
+}
