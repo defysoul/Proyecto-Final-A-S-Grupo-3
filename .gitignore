@@ -1,0 +1,22 @@
+# entorno virtual
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Reportes generados en runtime
+CATASTRO_*.docx
+EVIDENCIA_*.docx
+_tmp_foto_*.png
+
+# datos locales
+*.local.json
+.env
+*.log
+
+# 
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
